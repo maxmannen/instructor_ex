@@ -94,7 +94,7 @@ defmodule Instructor.Adapters.Groq do
     base_config = Application.get_env(:instructor, :openai, [])
 
     default_config = [
-      api_url: "https://api.groq.com/openai/v1",
+      api_url: "https://api.groq.com/openai",
       http_options: [receive_timeout: 60_000]
     ]
 
